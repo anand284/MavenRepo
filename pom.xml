@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>dateUtils</name>
   <url>http://maven.apache.org</url>
+	  <distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/anand284/dateUtils</url>
+			</repository>
+		<!--<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+		</snapshotRepository>-->
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
